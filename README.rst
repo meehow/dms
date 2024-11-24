@@ -27,15 +27,13 @@ dms uses ``ffprobe``/``avprobe`` to get media data such as bitrate and duration,
 Installing
 ==========
 
-Assuming ``$GOPATH`` and Go have been configured already::
-
-    $ go get github.com/anacrolix/dms
+    $ go install github.com/anacrolix/dms@latest
 
 Ensure ``ffmpeg``/``avconv`` and/or ``ffmpegthumbnailer`` are in the ``PATH`` if the features depending on them are desired.
 
 To run::
 
-    $ "$GOPATH"/bin/dms
+    $ ~/go/bin/dms
 
 Running DMS using Docker
 ========================
